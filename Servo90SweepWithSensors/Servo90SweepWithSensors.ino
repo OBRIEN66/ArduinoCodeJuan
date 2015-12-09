@@ -22,7 +22,7 @@ int trigPin = 52;
 int echoPin = 53;
 
 void setup() {
-  myservo.attach(45);  // attaches the servo on pin 22 to the servo object
+  myservo.attach(45);  // attaches the servo on pin 45 to the servo object
   Serial.begin(9600);     
   pinMode(IRPin, INPUT);   
 }
